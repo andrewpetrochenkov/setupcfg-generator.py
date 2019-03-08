@@ -6,7 +6,7 @@
 
 #### Install
 ```bash
-$ [sudo] pip install setupcfg-generator
+[sudo] pip install setupcfg-generator
 ```
 
 #### Features
@@ -33,12 +33,7 @@ files can be in the current directory or any subdirectory
 #### Functions
 function|`__doc__`
 -|-
-`setupcfg_generator.create(path='setup.cfg')`|create `setup.cfg`
-
-#### Cli
-usage|`__doc__`
--|-
-`python -m setupcfg_generator [path]`|create `setup.cfg`
+`setupcfg_generator.create(path='setup.cfg')` |create `setup.cfg`
 
 #### Examples
 ```
@@ -86,6 +81,14 @@ scripts =
     bin/script
     scripts/script
 ```
+
+#### Related projects
++   [`classifiers-generator` - classifiers generator](https://pypi.org/project/classifiers-generator/)
++   [`readme-badges` - `README.md` badges](https://pypi.org/project/readme-badges/)
++   [`readme-docstring` - generate README.md from python docstrings](https://pypi.org/project/readme-docstring/)
++   [`readme-generator` - `README.md` generator](https://pypi.org/project/readme-generator/)
++   [`setupcfg-generator` - `setup.cfg` generator](https://pypi.org/project/setupcfg-generator/)
++   [`travis-generator` - `.travis.yml` generator](https://pypi.org/project/travis-generator/)
 
 <p align="center">
     <a href="https://pypi.org/project/readme-generator/">readme-generator</a>

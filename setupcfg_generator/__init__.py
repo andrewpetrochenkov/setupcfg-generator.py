@@ -26,7 +26,7 @@ def packages():
 
 
 def py_modules():
-    """return list with python modules in project root"""
+    """return a list with python modules in project root"""
     def ismodule(f):
         return os.path.splitext(f)[1] == ".py" and f != "setup.py"
 
