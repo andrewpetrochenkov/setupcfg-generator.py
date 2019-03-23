@@ -36,15 +36,14 @@ def py_modules():
 
 
 def install_requires():
-    """return `install_requires` list. content of `install_requires.txt`, `requirements.txt`, `requires.txt` files"""
+    """return `install_requires` list. content of `requirements.txt`"""
     result = []
-    files = ["install_requires.txt", "requirements.txt", "requires.txt"]
 
     def readline(l):
         return l.split("#")[0].lstrip().rstrip()
-    for path in files:
-        if os.path.exists(path):
-            result += list(map(readline, open(path).read().splitlines()))
+    for f in list(files()):
+        if os.path.basename(f) in ["requirements.txt"]:
+            result += list(map(readline, open(f).read().splitlines()))
     return list(sorted(filter(None, set(result))))
 
 

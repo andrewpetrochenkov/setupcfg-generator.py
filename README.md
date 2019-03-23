@@ -1,12 +1,14 @@
-<!-- https://pypi.org/project/readme-generator/ -->
+<!--
+https://pypi.org/project/readme-generator/
+-->
 
 [![](https://img.shields.io/pypi/pyversions/setupcfg-generator.svg?longCache=True)](https://pypi.org/project/setupcfg-generator/)
 [![](https://img.shields.io/pypi/v/setupcfg-generator.svg?maxAge=3600)](https://pypi.org/project/setupcfg-generator/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/setupcfg-generator.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/setupcfg-generator.py/)
 
-#### Install
+#### Installation
 ```bash
-[sudo] pip install setupcfg-generator
+$ [sudo] pip install setupcfg-generator
 ```
 
 #### Features
@@ -34,6 +36,11 @@ files can be in the current directory or any subdirectory
 function|`__doc__`
 -|-
 `setupcfg_generator.create(path='setup.cfg')` |create `setup.cfg`
+
+#### CLI
+usage|`__doc__`
+-|-
+`python -m setupcfg_generator [path]` |create `setup.cfg`
 
 #### Examples
 ```
