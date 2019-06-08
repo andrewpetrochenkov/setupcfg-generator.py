@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/pypi/pyversions/setupcfg-generator.svg?longCache=True)](https://pypi.org/project/setupcfg-generator/)
@@ -37,7 +38,7 @@ function|`__doc__`
 -|-
 `setupcfg_generator.create(path='setup.cfg')` |create `setup.cfg`
 
-#### CLI
+#### Executable modules
 usage|`__doc__`
 -|-
 `python -m setupcfg_generator [path]` |create `setup.cfg`
@@ -98,5 +99,5 @@ scripts =
 +   [`travis-generator` - `.travis.yml` generator](https://pypi.org/project/travis-generator/)
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
