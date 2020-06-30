@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/setupcfg-generator.svg?longCache=True)](https://pypi.org/project/setupcfg-generator/)
-[![](https://img.shields.io/pypi/v/setupcfg-generator.svg?maxAge=3600)](https://pypi.org/project/setupcfg-generator/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/setupcfg-generator.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/setupcfg-generator.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/setupcfg-generator.svg?maxAge=3600)](https://pypi.org/project/setupcfg-generator/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/setupcfg-generator.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/setupcfg-generator.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install setupcfg-generator
 ```
@@ -32,16 +32,6 @@ $ [sudo] pip install setupcfg-generator
 `scripts`|`bin/*` or `scripts/*` files
 
 files can be in the current directory or any subdirectory
-
-#### Functions
-function|`__doc__`
--|-
-`setupcfg_generator.create(path='setup.cfg')` |create `setup.cfg`
-
-#### Executable modules
-usage|`__doc__`
--|-
-`python -m setupcfg_generator [path]` |create `setup.cfg`
 
 #### Examples
 ```
@@ -90,14 +80,9 @@ scripts =
     scripts/script
 ```
 
-#### Related projects
-+   [`classifiers-generator` - classifiers generator](https://pypi.org/project/classifiers-generator/)
-+   [`readme-badges` - `README.md` badges](https://pypi.org/project/readme-badges/)
-+   [`readme-docstring` - generate README.md from python docstrings](https://pypi.org/project/readme-docstring/)
-+   [`readme-generator` - `README.md` generator](https://pypi.org/project/readme-generator/)
-+   [`setupcfg-generator` - `setup.cfg` generator](https://pypi.org/project/setupcfg-generator/)
-+   [`travis-generator` - `.travis.yml` generator](https://pypi.org/project/travis-generator/)
+#### Related
++   [`setuppy-generator` - `setup.py` generator](https://pypi.org/project/setuppy-generator/)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

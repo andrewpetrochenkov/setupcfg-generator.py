@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+__all__ = ['create']
+
+
 import os
-import public
 import setupcfg
 import setuptools
 
@@ -47,7 +48,7 @@ def install_requires():
     return list(sorted(filter(None, set(result))))
 
 
-def scripts():
+def get_scripts():
     """return `scripts` list. `bin/`, `scripts/` files"""
     result = []
     exclude = ['.DS_Store', 'Icon\r']
@@ -78,7 +79,8 @@ def get_file(filenames, files):
         if os.path.exists(filename):
             return filename
     for filename in filenames:
-        matches = list(filter(lambda f: os.path.basename(f) == filename, files))
+        matches = list(
+            filter(lambda f: os.path.basename(f) == filename, files))
         if len(matches) == 1:
             return matches[0]
 
@@ -121,7 +123,6 @@ def options():
     )
 
 
-@public.add
 def create(path="setup.cfg"):
     """create `setup.cfg`"""
     if not path:
